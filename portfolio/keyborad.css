@@ -6,6 +6,8 @@
 }
 body {
   background-color: rgb(195, 240, 225);
+  display: flex;
+  margin: auto;
 }
 .events {
   width: 333px;
@@ -22,6 +24,12 @@ body {
   text-align: center;
   border-left: 1px solid #333333;
 }
+
+/* #keyboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
 
 .check {
   color: white;
